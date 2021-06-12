@@ -1,12 +1,12 @@
 import bodyParser from 'body-parser';
 import express from 'express';
 
-import database from './configs/database';
-import { ActivesModel } from './models/actives';
-import { CompaniesModel } from './models/companies';
-import { UnitsModel } from './models/units';
-import { UsersModel } from './models/users';
-import { appRoute } from './routes/appRoute';
+import database from '../configs/database';
+import { ActivesModel } from '../models/actives';
+import { CompaniesModel } from '../models/companies';
+import { UnitsModel } from '../models/units';
+import { UsersModel } from '../models/users';
+import { appRoute } from '../routes/appRoute';
 
 const cors = require("cors");
 
