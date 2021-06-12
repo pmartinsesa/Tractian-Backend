@@ -31,5 +31,5 @@ appRoute(app, UsersModel);
 
 app.get('/', (req, res) => res.send('Express + TypeScript Server'));
 database.connect().then(() => {
-  app.listen(PORT, () => console.log('Api Rodando na porta 4000'));
+  app.listen(process.env.PORT || PORT, () => console.log('Api Rodando na porta 4000'));
 })
