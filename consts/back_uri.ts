@@ -1,0 +1,1 @@
+export const BACKEND_URI='mongodb+srv://pmes18:pmes18123@cluster0.svpjc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'

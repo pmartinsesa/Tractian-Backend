@@ -1,0 +1,25 @@
+{
+  "name": "tractian_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
