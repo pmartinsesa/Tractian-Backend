@@ -5,7 +5,7 @@ import { BACKEND_URI } from '../consts/back_uri';
 moongoose.Promise = global.Promise;
 
 const config = {
-    uri: BACKEND_URI,
+    uri: process.env.MONGO_URL || BACKEND_URI,
     options: {
         useNewUrlParser: true,
         useFindAndModify: false,
