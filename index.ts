@@ -8,6 +8,8 @@ import { UnitsModel } from './models/units';
 import { UsersModel } from './models/users';
 import { appRoute } from './routes/appRoute';
 
+const cors = require("cors");
+
 const app = express();
 const PORT = 4000;
 app.use(express.urlencoded({extended: false}));
